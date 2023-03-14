@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    background: url("../assets/pexels-element-digital-1370295.jpg");
+    background-size: 100%;
+    font-size: 1.5em;
+}
+
+.nav-bar{
+    display: flex;
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+    padding: 1.5em;
+}
+
+.left h1{
+    color: #fff;
+}
+
+.left{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav{
+    width: 50%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.log-btn{
+    padding: .5em;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.home-sec h1{
+    font-size: 2em;
+}
+
+.home-sec{
+    margin: 0 auto;
+    color: #fff;
+    width: 60%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* *************Book section******************** */
+
+.books{
+    width: 80%;
+    height: auto;
+    padding: 2em;
+    margin: 0 auto;
+}
+
+.books h1{
+    font-size: 4em;
+}
+
+.book-list img{
+    width: 100%;
+    height: 100%;
+}
+
+.book-list {
+    padding: 4em;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-gap: 4em;
+}
+
+.book-list a:hover{
+    transform: scale(1.10);
+}
